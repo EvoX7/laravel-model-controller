@@ -2,4 +2,9 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
 @import "./partials/_header";
-@import "./partials/_main";
+@import "./partials/_navBar";
+@import "./partials/_movieCard";
+
+body {
+    background-color: #1c478b;
+}

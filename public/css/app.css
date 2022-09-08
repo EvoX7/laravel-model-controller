@@ -10848,6 +10848,27 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+header {
+  background-color: #032541;
+}
+
 nav {
-  background-color: red;
+  background-color: #032541;
+}
+
+.navbar-brand {
+  font-size: 2em;
+}
+
+.card {
+  width: 18rem;
+  height: 38rem;
+}
+
+.card-img-top {
+  height: 20rem;
+}
+
+body {
+  background-color: #1c478b;
 }
