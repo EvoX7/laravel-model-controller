@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container mt-5">
     <div class="row">
         @forelse ($movies as $movie)
-            <div class="card col-4 p-2 m-2">
+            <div class="card col-4 p-3 m-2">
                 <img src="{{ $movie->poster }}" class="card-img-top"
                     alt="cover">
                 <div class="card-body">

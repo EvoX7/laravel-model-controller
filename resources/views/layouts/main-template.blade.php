@@ -12,8 +12,8 @@
 <body>
     @include('includes.header')
     <main>
+        @include('includes.hero')
           @include('includes.movieCard')
- 
 
     </main>
 
