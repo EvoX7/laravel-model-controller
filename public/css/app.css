@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Rubik&display=swap);@charset "UTF-8";
 /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -10850,13 +10850,16 @@ textarea.form-control-lg {
 }
 header {
   height: 5rem;
-  margin-bottom: 10rem;
   background-color: #032541;
 }
 
 nav {
   height: 5rem;
   background-color: #032541;
+}
+
+.nav-link:hover {
+  color: aquamarine !important;
 }
 
 .navbar-brand {
@@ -10869,14 +10872,46 @@ nav {
 }
 
 .card {
-  width: 18rem;
-  height: 38rem;
+  width: 17rem;
+  height: 37rem;
+  background-color: #9da9b3;
+  cursor: pointer;
 }
 
 .card-img-top {
-  height: 20rem;
+  height: 17rem;
+}
+
+.list-group-item {
+  background-color: #9da9b3;
+}
+
+#hero {
+  background-image: url("/assets/img/inter.png");
+  background-position: top;
+  background-size: cover;
+  border-radius: 0px 0px 5px 5px;
+  width: 100%;
+  height: 30rem;
+  margin-bottom: 5rem;
+}
+
+.title {
+  font-size: 5rem;
+  background: -webkit-linear-gradient(#69c6b3, #17b6d8);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sub-title {
+  background: -webkit-linear-gradient(#69c6b3, #17b6d8);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 body {
   background-color: #1c478b;
+  font-family: "Rubik", sans-serif;
 }

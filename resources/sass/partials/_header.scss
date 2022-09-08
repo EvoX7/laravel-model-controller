@@ -1,12 +1,16 @@
 header {
     height: 5rem;
-    margin-bottom: 10rem;
     background-color: #032541;
 }
 
 nav {
     height: 5rem;
     background-color: #032541;
+}
+
+.nav-link:hover {
+    color: aquamarine !important;
+
 }
 
 .navbar-brand {

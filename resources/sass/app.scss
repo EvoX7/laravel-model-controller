@@ -1,9 +1,13 @@
 //
 @import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 @import "./partials/_header";
 @import "./partials/_movieCard";
+@import "./partials/_hero";
+
 
 body {
     background-color: #1c478b;
+    font-family: 'Rubik', sans-serif;
 }

@@ -1,4 +1,1 @@
 @extends('layouts.main-template')
-
-
-
