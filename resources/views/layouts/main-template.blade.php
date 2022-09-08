@@ -10,7 +10,14 @@
 <body>
 @include('includes.header')
 <main>
-    @yield('book-list')
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                @include('includes.movieCard')
+            </div>
+        </div>
+    </div>
+    
 </main>
 
 </body>
