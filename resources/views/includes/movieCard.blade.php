@@ -11,7 +11,7 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item"> <span class="fw-bold">Nationality:</span> {{ $movie->nationality }}
                     </li>
-                    <li class="list-group-item"><span class="fw-bold">Relese date:</span> {{ $movie->date }}</li>
+                    <li class="list-group-item"><span class="fw-bold">Release date:</span> {{ $movie->date }}</li>
                     <li class="list-group-item"><span class="fw-bold">Rating:</span> {{ $movie->vote }}</li>
                 </ul>
             </div>
